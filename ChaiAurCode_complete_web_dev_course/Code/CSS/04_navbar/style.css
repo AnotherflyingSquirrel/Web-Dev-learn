@@ -1,0 +1,229 @@
+body {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.nav-container {
+  margin: 20px;
+  /* background-color: ; */
+}
+
+h2 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+  font-size: 24px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.nav1 {
+  /* margin: 0px; */
+  padding: 0;
+  margin: 0;
+}
+
+.nav1 ul {
+  /* border: red solid 1px; */
+  /* background-color: orange; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav1 li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.nav1 a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline;
+  position: relative;
+}
+.nav1 a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+.nav1 a:hover::after {
+  background-color: #fff;
+  /* color: #ffffff; */
+  transform: scaleX(1);
+}
+
+.nav1 .login-btn {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 3px;
+}
+.nav1 .login-btn:hover {
+  background-color: #fff;
+  color: #4576ae;
+  border-style: none;
+  border-radius: 3px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.nav2 {
+  width: 30%;
+  background-color: #4576ae;
+  margin: 0;
+  padding: 0;
+}
+
+.nav2 ul {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  list-style-type: none;
+  /* align-items: center; */
+  /* width: 100%; */
+  /* align-content: center; */
+}
+.nav2 li {
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
+  /* align-content: center; */
+}
+.nav2 a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  /* width: 100%; */
+  /* align-content: center; */
+  display: inline-block;
+  position: relative;
+}
+.nav2 a:hover {
+  background-color: #ffffff;
+  color: #4576ae;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav2 .login-btn {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  display: inline-block;
+  width: 100%;
+}
+.nav2 .login-btn:hover {
+  background-color: #fff;
+  color: #4576ae;
+  border-style: none;
+  border-radius: 3px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.nav3 {
+  background-color: #4576ae;
+  /* margin: 0px; */
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.nav3 ul {
+  /* border: red  solid 1px; */
+  /* background-color: orange; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+.nav3 li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.nav3 a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline;
+  position: relative;
+}
+.nav3 a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+.nav3 a:hover::after {
+  background-color: #fff;
+  /* color: #ffffff; */
+  transform: scaleX(1);
+}
+
+.nav3 .login-btn {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 3px;
+}
+.nav3 .login-btn:hover {
+  background-color: #fff;
+  color: #4576ae;
+  border-style: none;
+  border-radius: 3px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.nav3 .dropdown-content {
+  display: none;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #1a1a1a;
+  border-radius: 3px;
+  width: 150%;
+}
+
+.nav3 .dropdown-content a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.nav3 .dropdown:hover .dropdown-content {
+  display: block;
+
+  position: absolute;
+}
+
+.nav3 .dropdown {
+  position: relative;
+  display: inline-block;
+}

@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+h2 {
+  color: #adaeb0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin-top: 20px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 372;
+  font-style: normal;
+  font-variation-settings: "YOPQ" 233;
+}
+.login-form-card {
+  padding: 10px;
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  width: 300px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 5px;
+  /* height: 300 px; */
+}
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3c3c3c;
+  color: #adaeb0;
+  font-size: 16px;
+  margin: 8px;
+}
+label {
+  color: #adaeb0;
+  font-size: 14px;
+  margin-left: 8px;
+}
+#login-submit-button {
+  background-color: #266fc3;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#login-submit-button:hover {
+  background-color: #174b79;
+  transition: background-color 0.4s ease;
+}
