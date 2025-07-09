@@ -1,5 +1,5 @@
 /LearningWebProjects/
 /Practice_and_examples_test/
 /prettier-test/
-/index.js
-/node_modules/
+./index.js
+node_modules/
