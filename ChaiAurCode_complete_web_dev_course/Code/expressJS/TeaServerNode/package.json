@@ -9,7 +9,7 @@
     "devStart": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shailesh Nehra",
   "license": "ISC",
   "description": "An expressJS server running on the node environment",
   "dependencies": {
@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnotherflyingSquirrel/http_server_express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnotherflyingSquirrel/http_server_express/issues"
+  },
+  "homepage": "https://github.com/AnotherflyingSquirrel/http_server_express#readme"
 }
